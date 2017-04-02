@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5 {
+    width: 35%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.links {
+    text-align: center;
+}
+
+#name {
+    padding-top: 25px;
+    text-align: center;
+}
+
+#counter {
+    text-align: center;
+}
