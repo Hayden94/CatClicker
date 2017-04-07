@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <h1 class="title">CatClicker</h1>
+        <h1 class="title">Cat Clicker</h1>
 
-        <div class="links">
-            <a href="#" id="link1">Cherry</a> -
-            <a href="#" id="link2">Anabell</a> -
-            <a href="#" id="link3">Fox</a> -
-            <a href="#" id="link4">Goobs</a> -
-            <a href="#" id="link5">Wrinkles</a>
+        <div id="cat-list"></div>
+
+        <div id="cat">
+            <h2 id="cat-name"></h2>
+            <div id="cat-count"></div>
+            <img id="cat-img" src="" alt="cute cat">
         </div>
 
-        <h2 id="name"></h2>
+        </br>
 
-        <h3 id="counter"></h3>
+        <input type="button" value="Admin" id="btn-admin"></br></br>
 
+        <form id="btn-content">
+            Name
+            <input type="text" id="btn-name"></br>
+            Img URL
+            <input type="text" id="btn-img"></br>
+            Clicks
+            <input type="text" id="btn-count"></br></br>
 
-        <img id="pic1" class="pics" src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg">
-        <img id="pic2" class="pics" src="https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg">
-        <img id="pic3" class="pics" src="https://www.petdrugsonline.co.uk/images/page-headers/cats-master-header">
-        <img id="pic4" class="pics" src="https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg">
-        <img id="pic5" class="pics" src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx">
+            <input type="button" value="Save" id="btn-save">
+            <input type="button" value="Cancel" id="btn-cancel">
+        </form>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="js/script.js"></script>
